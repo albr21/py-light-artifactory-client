@@ -1,8 +1,11 @@
-name: <project-name>
+name: py-light-artifactory-client
 description: |-
-  <project-description>
-version: 0.0.0
+  A light Python client module for Artifactory
+version: 1.0.0
 releases:
+  - version: 1.0.0
+    changes:
+      - Initial release
   - version: 0.0.0
     changes:
       - Under development
