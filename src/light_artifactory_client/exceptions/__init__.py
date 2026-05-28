@@ -6,6 +6,7 @@ from .forbidden import ForbiddenError
 from .not_authenticated import NotAuthenticatedError
 from .not_found import NotFoundError
 
+# pylint: disable=R0801
 __all__ = [
     "LightArtifactoryClientError",
     "AlreadyConnectedError",
@@ -15,3 +16,4 @@ __all__ = [
     "ForbiddenError",
     "NotFoundError",
 ]
+# pylint: enable=R0801

@@ -29,7 +29,7 @@ class DeployArtifactMixin:
         Raises:
             InvalidArgumentError: For invalid arguments.
         """
- 
+
         validate_non_empty_string(repo_key, "repo_key")
         validate_non_empty_string(path, "path")
 

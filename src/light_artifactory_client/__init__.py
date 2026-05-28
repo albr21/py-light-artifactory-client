@@ -22,6 +22,7 @@ from .responses import (
     SearchItemsByPropertiesResponse,
 )
 
+# pylint: disable=R0801
 __all__ = [
     # Client
     "ArtifactoryClient",
@@ -46,3 +47,4 @@ __all__ = [
     "SearchAQLResponse",
     "SearchItemsByPropertiesResponse",
 ]
+# pylint: enable=R0801

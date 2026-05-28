@@ -10,6 +10,7 @@ from .delete_item_response import DeleteItemResponse
 from .search_aql_response import SearchAQLResponse
 from .search_items_by_properties_response import SearchItemsByPropertiesResponse
 
+# pylint: disable=R0801
 __all__ = [
     "Response",
     "GetItemInfoResponse",
@@ -23,3 +24,4 @@ __all__ = [
     "SearchAQLResponse",
     "SearchItemsByPropertiesResponse",
 ]
+# pylint: enable=R0801
